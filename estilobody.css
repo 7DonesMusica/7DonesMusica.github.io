@@ -1,0 +1,309 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    text-align: center;
+    font-family:arial ;
+}
+
+.container{
+    width: 100%;
+    position:relative;
+    height: 950px;
+    overflow:hidden;
+    z-index: -1;
+   
+}
+
+.parallax{
+    width:100%;
+    height: 100%;
+    background-image:url(./Imagenes/fondo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+  
+}
+
+.parallax-mov{
+    display: none;
+}
+
+.container-info{
+    display:block;
+    justify-content: center;
+    align-content: center;
+
+}
+.container-info h2{
+    color: rgb(73, 110, 165);
+}
+.info7d{
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+ .info7d h2{
+    color: rgb(73, 110, 165);
+    margin-top:90px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.info7d p{
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:16px;
+    margin-bottom: 30px;
+}
+.info7d2 h2{
+    color: rgb(73, 110, 165);
+    margin-top:80px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.info7d2 p{
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:16px;
+    margin-bottom: 60px;
+}
+.info7d3 h2{
+    color: rgb(73, 110, 165);
+    margin-top:80px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.info7d3 p{
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:16px;
+    margin-bottom: 40px;
+}
+.info7d3 {
+    margin-bottom: 50px;
+}
+.info7d3 a{
+    color: rgb(73, 110, 165);
+    text-decoration: none;
+}
+.redes{
+  
+    margin-bottom: 50px;
+}
+
+.redes i{
+    margin-right: auto;
+    margin-left: auto;
+    width:50px;
+}
+
+.redes a:link{
+    color: black;
+}
+
+.redes a:visited{
+    color:black;
+}
+
+.redesbot{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.redesbot i{
+    margin-right: auto;
+    margin-left: auto;
+    width:50px;
+}
+
+.redesbot a:link{
+    color: black;
+}
+
+.redesbot a:visited{
+    color:black;
+}
+
+.nuestrosi{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.container2{
+    width: 100%;
+    position:relative;
+    height: 300px;
+    overflow:hidden;
+    z-index: -1;
+}
+
+.parallax2{
+    width:100%;
+    height:100vh;
+    background-image:url(./Imagenes/foto_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-integrantes{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-integrantes{
+    margin-bottom: 80px;
+}
+.content-integrantes img{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.content-integrantes h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.integrantes{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-videos{
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videos{
+    
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-videos{
+    
+    margin-bottom:80px;
+}
+.content-videos iframe{
+    width:560px;
+    height:315px;
+}
+.container-recursos{
+    width:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.recursos-h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.recursos-p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.container-recursos i{
+    margin-bottom: 40px;
+}
+
+.container-recursos a{
+    background-color: #0056B3 ;
+    border-radius: 10px;
+    padding: 10px;
+    color:white;
+    text-decoration: none; 
+    transition:.5s ease-in-out;
+}
+
+.container-recursos a:hover{
+    background-color: #013d7c ;
+    
+}
+
+.parallax3{
+    width:100%;
+    height:100vh;
+    background-image:url(./Imagenes/foto_1-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.footer{
+    width:100%;
+    display: inline-block;
+
+}
+.one{
+    display: inline-flex;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.two{
+    margin-bottom: 10px;
+    font-size:13px;
+}
+.three{
+    margin-bottom: 20px;
+    font-size:12px;
+}
+@media only screen and (max-width:700px){
+
+    .container{
+        width: 100%;
+        height: 500px;
+    } 
+    .parallax,
+    .parallax2,
+    .parallax3{
+        display: none;
+    }
+
+    .parallax-mov{
+        display:flex;
+        width: 100%;
+        background-position: center;
+    }
+    .container2{
+        width: 100%;
+        position:relative;
+        height: 150px;
+        overflow:hidden;
+        z-index: -1;
+    }
+    .content-videos iframe{
+        width:340px;
+      height:195px;
+    }
+
+} 
+@media only screen and (max-width:1000px){
+
+    .container-integrantes{
+        width: 200px;
+    }
+}
+
+@media only screen and  (max-width:1500px) {
+    .container-videos{
+        width:200px;
+    }
+  
+   
+} 
+
